@@ -1,0 +1,8 @@
+if opcion == 1:
+    rutes.append(rut)
+    nombres.append(nombre)
+    apellidospaternos.append(apellido_paterno)
+    edades.append(edad)
+    estadosciviles.append(estado_civil)
+    generos.append(genero)
+    fechasdeafiliaciones.append(fecha_afiliacion)
