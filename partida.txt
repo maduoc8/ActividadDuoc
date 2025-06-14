@@ -1,0 +1,12 @@
+cliente={}
+seguir=True
+while seguir:
+    # Menu de opciones
+    print("\n***** ISAPRE VIDA Y SALUD *****\n") 
+    print("1) Registrar afiliado\n2) Buscar afiliado\n3) Imprimir certificado\n4) Salir\n") 
+    while True:
+        opcion=input("Ingrese una opcion: ")
+        if (opcion=='1' or opcion=='2' or opcion=='3' or opcion=='4'):
+            break
+        else:
+            print("\nError....ingrese una opcion valida !!\n")
