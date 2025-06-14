@@ -22,3 +22,11 @@ if opcion == 1:
     estadosciviles.append(estado_civil)
     generos.append(genero)
     fechasdeafiliaciones.append(fecha_afiliacion)
+           
+if opcion==2:
+    if afiliados==0:
+        print("\nNO se han registrados afiliados !!\n")
+    else:
+        rut=input("\nIngresa RUT del afiliado")
+        for rut in cliente.items():
+            print(f"{cliente}")
