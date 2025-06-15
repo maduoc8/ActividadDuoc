@@ -82,7 +82,7 @@ while True:
     # Opción 4: Salir
     elif opcion == "4":
         print("\nGracias por usar el programa.")
-        print("Desarrollado por: [Tu Nombre y Apellido] - Versión 1.0") break
+        break
 
     else:
         print("Opción no válida. Intente nuevamente.")
